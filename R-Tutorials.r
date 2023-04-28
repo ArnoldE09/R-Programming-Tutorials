@@ -71,3 +71,15 @@ data <- read.xlsx("input.xlsx", sheetIndex = 1)
 print(data)
 
 R - Binary Files
+
+R - Mean, Median and Mode
+
+Mean
+# Create a vector. 
+x <- c(12,7,3)
+
+# Find Mean.
+result.mean <- mean(x)
+print(result.mean)
+
+Applying Trim Option

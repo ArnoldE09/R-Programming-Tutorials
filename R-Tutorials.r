@@ -64,3 +64,10 @@ retval <- subset(data, as.Date(start_date) > as.Date("2014-01-01"))
 write.csv(retval,"output.csv")
 newdata <- read.csv("output.csv")
 print(newdata)
+
+Reading the Excel File
+# Read the first worksheet in the file input.xlsx.
+data <- read.xlsx("input.xlsx", sheetIndex = 1)
+print(data)
+
+R - Binary Files

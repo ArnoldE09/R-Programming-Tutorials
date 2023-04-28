@@ -54,3 +54,13 @@ data <- read.csv("input.csv")
 
 retval <- subset(data, as.Date(start_date) > as.Date("2014-01-01"))
 print(retval)
+
+Writing into a CSV File
+# Create a data frame.
+data <- read.csv("input.csv")
+retval <- subset(data, as.Date(start_date) > as.Date("2014-01-01"))
+
+# Write filtered data into a new file.
+write.csv(retval,"output.csv")
+newdata <- read.csv("output.csv")
+print(newdata)

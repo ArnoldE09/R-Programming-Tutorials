@@ -83,3 +83,4 @@ result.mean <- mean(x)
 print(result.mean)
 
 Applying Trim Option
+xxxxxxxxxxxxxx
